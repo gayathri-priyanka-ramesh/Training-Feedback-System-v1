@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduReview360</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">
+                <a href="admin_home.html"><img src="../img/logo.png" alt="logo"></a>
+            </div>
+            <div class="brand-name">
+                <p>EduReview360</p>
+            </div>
+        </div>
+        <div class="headprofile">
+            <p><i class="fa-solid fa-bell"></i></p>
+            <p><i class="fa-solid fa-gear"></i></p>
+            <img src="../img/participant.jfif" alt="participant-profile">
+        </div>
+    </header>
+    <section class="breadcrump">
+        <a href="admin_home.html#courses-list">Home</a> /
+        <a href="admin_course.html">HTML</a> /
+        <span class="current-page">Feedback Creation</span>
+    </section>
+    <main>
+        <h1>HTML Essentials</h1>
+        <h2>Create Feedback</h2>
+        <form action="admin_enterquestions.html" class="feedback-form">
+            <fieldset>
+                <legend>Question Criteria</legend>
+                <label for="anonymous" class="checkbox-text-label">
+                    <input type="checkbox" name="anonymous" id="anonymous" checked required>Enable Anonymous Feedback Option <span class="mandate">*</span>
+                </label>
+                <label for="qnumt" class="text-label">Enter No. of Questions for Training Evaluation <span class="mandate">*</span>
+                    <input type="number" name="qnumt" id="qnumt" min="1" max="10" required>
+                </label>
+                <label for="qnumi" class="text-label">Enter No. of Questions for Instructor Evaluation <span class="mandate">*</span>
+                    <input type="number" name="qnumi" id="qnumi" min="1" max="10" required>
+                </label>
+                <label for="qnumo" class="text-label">Enter No. of Questions for Overall Rating <span class="mandate">*</span>
+                    <input type="number" name="qnumo" id="qnumo" min="1" max="5" required>
+                </label>
+                <label for="rating-range" class="text-label">Choose the Rating Range <span class="mandate">*</span></label><br>
+                <label for="five" class="checkbox-label">
+                    <input type="radio" name="rating-range" id="five" value="five" required>1 to 5
+                </label>
+                <label for="ten" class="checkbox-label">
+                    <input type="radio" name="rating-range" id="ten" value="ten" required>1 to 10
+                </label>
+            </fieldset>
+            <div class="button-group">
+                <div class="button">
+                    <button type="reset" class="nav-item">Reset</button>
+                </div>
+                <div class="button">
+                    <button type="submit" class="nav-item">Next</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

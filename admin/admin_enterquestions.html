@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduReview360</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">
+                <a href="admin_home.html"><img src="../img/logo.png" alt="logo"></a>
+            </div>
+            <div class="brand-name">
+                <p>EduReview360</p>
+            </div>
+        </div>
+        <div class="headprofile">
+            <p><i class="fa-solid fa-bell"></i></p>
+            <p><i class="fa-solid fa-gear"></i></p>
+            <img src="../img/participant.jfif" alt="participant-profile">
+        </div>
+    </header>
+    <section class="breadcrump">
+        <a href="admin_home.html#courses-list">Home</a> /
+        <a href="admin_course.html">HTML</a> /
+        <a href="admin_createfeedback.html">Feedback Creation</a> /
+        <span class="current-page">Questions</span>
+    </section>
+    <main>
+        <h1>HTML Essentials</h1>
+        <h2>Create Feedback</h2>
+        <form action="admin_feedbackformpreview.html" class="feedback-form">
+            <fieldset>
+                <legend>Training Evaluation</legend>
+                <label for="tques1" class="text-label">Enter Question 1 <span class="mandate">*</span>
+                    <input type="text" name="tques1" id="tques1" required>
+                </label>
+                <label for="tques2" class="text-label">Enter Question 2 <span class="mandate">*</span>
+                    <input type="text" name="tques2" id="tques2" required>
+                </label>
+                <label for="tques3" class="text-label">Enter Question 3 <span class="mandate">*</span>
+                    <input type="text" name="tques3" id="tques3" required>
+                </label>
+                <label for="tques4" class="text-label">Enter Question 4 <span class="mandate">*</span>
+                    <input type="text" name="tques4" id="tques4" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Instructor Evaluation</legend>
+                <label for="iques1" class="text-label">Enter Question 1 <span class="mandate">*</span>
+                    <input type="text" name="iques1" id="iques1" required>
+                </label>
+                <label for="iques2" class="text-label">Enter Question 2 <span class="mandate">*</span>
+                    <input type="text" name="iques2" id="iques2" required>
+                </label>
+                <label for="iques3" class="text-label">Enter Question 3 <span class="mandate">*</span>
+                    <input type="text" name="iques3" id="iques3" required>
+                </label>
+                <label for="iques4" class="text-label">Enter Question 4 <span class="mandate">*</span>
+                    <input type="text" name="iques4" id="iques4" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <label for="oques1" class="text-label">Enter Question 1 <span class="mandate">*</span>
+                    <input type="text" name="oques1" id="oques1" required>
+                </label>
+            </fieldset>
+            <div class="button-group">
+                <div class="button">
+                    <button type="reset" class="nav-item">Reset</button>
+                </div>
+                <div class="button">
+                    <button type="submit" class="nav-item"><a href="admin_feedbackformpreview.html">Preview</a></button>
+                </div>
+            </div>        
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

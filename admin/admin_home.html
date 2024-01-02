@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduReview360</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">
+                <a href="#"><img src="../img/logo.png" alt="logo"></a>
+            </div>
+            <div class="brand-name">
+                <p>EduReview360</p>
+            </div>
+        </div>
+        <div class="headprofile">
+            <p><i class="fa-solid fa-bell"></i></p>
+            <p><i class="fa-solid fa-gear"></i></p>
+            <img src="../img/admin.jfif" alt="admin-profile">
+        </div>
+    </header>
+    <section class="breadcrump">
+        <span class="current-page">Home</span>
+    </section>
+    <main>
+        <div class="item">
+            <div class="item-info">
+                <a href="#courses-list">
+                    <div class="data">
+                        <div class="progressbar">
+                            <svg class="svg">
+                              <circle cx="80" cy="80" r="45" class="svg-circle"> </circle>
+                            </svg>
+                            <span class="text-circle">50</span>
+                        </div>
+                        <div class="text">
+                            <p>Courses</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#instructors-list">
+                    <div class="data">
+                        <div class="progressbar">
+                            <svg class="svg">
+                              <circle cx="80" cy="80" r="45" class="svg-circle"> </circle>
+                            </svg>
+                            <span class="text-circle">30</span>
+                        </div>
+                        <div class="text">
+                            <p>Instructors</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#participants-list">
+                    <div class="data">
+                        <div class="progressbar">
+                            <svg class="svg">
+                              <circle cx="80" cy="80" r="45" class="svg-circle"> </circle>
+                            </svg>
+                            <span class="text-circle">750</span>
+                        </div>
+                        <div class="text">
+                            <p>Participants</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item-img">
+                <img src="../img/admin.jfif" alt="admin-image">
+            </div>
+        </div>
+        <h2 id="courses-list">Courses</h2>
+        <div class="scroll-container table-container">
+            <table class="scroll-table course-table">
+                <thead>
+                    <tr>
+                        <td>SNo.</td>
+                        <td>Title</td>
+                        <td>Rating</td>
+                        <td>Instructor</td>
+                        <td>Participants</td>
+                        <td>Progress</td>
+                        <td>Details</td>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr>
+                        <td>1</td>
+                        <td>HTML Essentials</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Maria Campbell</td>
+                        <td>50</td>
+                        <td>
+                            <div class="progress" data-label="90%">
+                                <span class="value" style="width:90%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>2</td>
+                        <td>Git Version Control</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Jonathan Baker</td>
+                        <td>50</td>
+                        <td>
+                            <div class="progress" data-label="90%">
+                                <span class="value" style="width:90%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>3</td>
+                        <td>Web Fundamentals</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Laura Davis</td>
+                        <td>50</td>
+                        <td>
+                            <div class="progress" data-label="88%">
+                                <span class="value" style="width:88%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>4</td>
+                        <td>CSS for Web Design</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>David Clark</td>
+                        <td>50</td>
+                        <td>
+                            <div class="progress" data-label="85%">
+                                <span class="value" style="width:85%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>5</td>
+                        <td>CSS with Bootstrap</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Emily Anderson</td>
+                        <td>45</td>
+                        <td>
+                            <div class="progress" data-label="83%">
+                                <span class="value" style="width:83%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>6</td>
+                        <td>CSS with Sass</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Samuel Evans</td>
+                        <td>40</td>
+                        <td>
+                            <div class="progress" data-label="80%">
+                                <span class="value" style="width:80%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>7</td>
+                        <td>CSS Animations</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Sarah Foster</td>
+                        <td>40</td>
+                        <td>
+                            <div class="progress" data-label="75%">
+                                <span class="value" style="width:75%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>8</td>
+                        <td>Responsive Web Design</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Michael Garcia</td>
+                        <td>30</td>
+                        <td>
+                            <div class="progress" data-label="70%">
+                                <span class="value" style="width:70%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>9</td>
+                        <td>JavaScript Fundamentals</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Rachel Green</td>
+                        <td>35</td>
+                        <td>
+                            <div class="progress" data-label="50%">
+                                <span class="value" style="width:50%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>10</td>
+                        <td>JavaScript Animations</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>James Harris</td>
+                        <td>30</td>
+                        <td>
+                            <div class="progress" data-label="50%">
+                                <span class="value" style="width:50%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>11</td>
+                        <td>Front-End Frameworks</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Jessica Johnson</td>
+                        <td>50</td>
+                        <td>
+                            <div class="progress" data-label="75%">
+                                <span class="value" style="width:75%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>12</td>
+                        <td>React.js Fundamentals</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Kevin King</td>
+                        <td>50</td>
+                        <td>
+                            <div class="progress" data-label="65%">
+                                <span class="value" style="width:65%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>13</td>
+                        <td>Vue.js Essentials</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Lisa Martinez</td>
+                        <td>40</td>
+                        <td>
+                            <div class="progress" data-label="50%">
+                                <span class="value" style="width:50%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>14</td>
+                        <td>Angular Fundamentals</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Matthew Miller</td>
+                        <td>35</td>
+                        <td>
+                            <div class="progress" data-label="55%">
+                                <span class="value" style="width:55%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                    <tr>
+                        <td>15</td>
+                        <td>Node.js Basics</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>Olivia Nelson</td>
+                        <td>40</td>
+                        <td>
+                            <div class="progress" data-label="50%">
+                                <span class="value" style="width:50%;"></span>
+                            </div>
+                        </td>
+                        <td><a href="admin_course.html">View Details</a></td>
+                    </tr>    
+                </tbody>
+            </table>
+        </div>
+        <h2 id="instructors-list">Instructor</h2>
+        <div class="scroll-container table-container">
+            <table class="scroll-table instructor-table">
+                <thead>
+                    <tr>
+                        <td>SNo.</td>
+                        <td>Name</td>
+                        <td>Rating</td>
+                        <td>Ongoing Courses</td>
+                        <td>Upcoming Courses</td>
+                        <td>Details</td>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr>
+                        <td>1</td>
+                        <td>Maria Campbell</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>2</td>
+                        <td>Jonathan Baker</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>3</td>
+                        <td>Laura Davis</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>4</td>
+                        <td>David Clark</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>5</td>
+                        <td>Emily Anderson</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>6</td>
+                        <td>Samuel Evans</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>7</td>
+                        <td>Sarah Foster</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>8</td>
+                        <td>Michael Garcia</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>9</td>
+                        <td>Rachel Green</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>10</td>
+                        <td>James Harris</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>11</td>
+                        <td>Jessica Johnson</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>6</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>12</td>
+                        <td>Kevin King</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>13</td>
+                        <td>Lisa Martinez</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>14</td>
+                        <td>Matthew Miller</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                    <tr>
+                        <td>15</td>
+                        <td>Olivia Nelson</td>
+                        <td><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td><a href="admin_instructor.html">View Details</a></td>
+                    </tr>                
+                </tbody>
+            </table>
+        </div>
+        <h2 id="participants-list">Participants</h2>
+        <div class="scroll-container table-container">
+            <table class="scroll-table participant-table">
+                <thead>
+                    <tr>
+                        <td>SNo.</td>
+                        <td>Name</td>
+                        <td>Ongoing Courses</td>
+                        <td>Upcoming Courses</td>
+                        <td>Feedback Submitted</td>
+                        <td>Details</td>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr>
+                        <td>1</td>
+                        <td>Samuel Roberts</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>20</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>2</td>
+                        <td>John Baker</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>3</td>
+                        <td>Emily Carter</td>
+                        <td>8</td>
+                        <td>5</td>
+                        <td>15</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>4</td>
+                        <td>David Foster</td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td>14</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>5</td>
+                        <td>Michael Davis</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>20</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>6</td>
+                        <td>Jessica Evans</td>
+                        <td>6</td>
+                        <td>4</td>
+                        <td>8</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>7</td>
+                        <td>Olivia Green</td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>12</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>8</td>
+                        <td>Benjamin Harris</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>18</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>9</td>
+                        <td>Rachel Jackson</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>10</td>
+                        <td>Daniel King</td>
+                        <td>11</td>
+                        <td>5</td>
+                        <td>8</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>11</td>
+                        <td>Laura Lopez</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>20</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>12</td>
+                        <td>Jennifer Nelson</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>8</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>13</td>
+                        <td>Matthew Mitchell</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>14</td>
+                        <td>William Parker</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                    <tr>
+                        <td>15</td>
+                        <td>Victoria Ramirez</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>20</td>
+                        <td><a href="admin_participant.html">View Details</a></td>
+                    </tr>                                
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

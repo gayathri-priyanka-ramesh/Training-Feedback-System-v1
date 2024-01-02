@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduReview360</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">
+                <a href="admin_home.html"><img src="../img/logo.png" alt="logo"></a>
+            </div>
+            <div class="brand-name">
+                <p>EduReview360</p>
+            </div>
+        </div>
+        <div class="headprofile">
+            <p><i class="fa-solid fa-bell"></i></p>
+            <p><i class="fa-solid fa-gear"></i></p>
+            <img src="../img/participant.jfif" alt="participant-profile">
+        </div>
+    </header>
+    <section class="breadcrump">
+        <a href="admin_home.html#courses-list">Home</a> /
+        <a href="admin_course.html">HTML</a> /
+        <a href="admin_createfeedback.html">Feedback Creation</a> /
+        <a href="admin_enterquestions.html">Questions</a> /
+        <span class="current-page">Form Preview</span>
+    </section>
+    <main>
+        <h1>HTML Essentials</h1>
+        <h2>Feedback Form Preview</h2>
+        <form action="submit.html" class="feedback-form">
+            <label for="anonymous" class="checkbox-label">
+                <input type="checkbox" name="anonymous" id="anonymous">Set as Anonumous
+            </label>
+            <fieldset>
+                <legend>Training Evaluation</legend>
+                <label for="content">How satisfied were you with the content of the training program?</label>
+                <div class="options">
+                    <input type="radio" name="content" id="content-1" value="1" required>
+                    <label for="content-1" data="1"></label>
+                    <input type="radio" name="content" id="content-2" value="2" required>
+                    <label for="content-2" data="2"></label>
+                    <input type="radio" name="content" id="content-3" value="3" required>
+                    <label for="content-3" data="3"></label>
+                    <input type="radio" name="content" id="content-4" value="4" required>
+                    <label for="content-4" data="4"></label>
+                    <input type="radio" name="content" id="content-5" value="5" required>
+                    <label for="content-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+                <label for="resources">Rate the clarity of the training materials and resources provided.</label>
+                <div class="options">
+                    <input type="radio" name="resources" id="resources-1" value="1" required>
+                    <label for="resources-1" data="1"></label>
+                    <input type="radio" name="resources" id="resources-2" value="2" required>
+                    <label for="resources-2" data="2"></label>
+                    <input type="radio" name="resources" id="resources-3" value="3" required>
+                    <label for="resources-3" data="3"></label>
+                    <input type="radio" name="resources" id="resources-4" value="4" required>
+                    <label for="resources-4" data="4"></label>
+                    <input type="radio" name="resources" id="resources-5" value="5" required>
+                    <label for="resources-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+                <label for="organization">Rate the organization and structure of the training program.</label>
+                <div class="options">
+                    <input type="radio" name="organization" id="organization-1" value="1" required>
+                    <label for="organization-1" data="1"></label>
+                    <input type="radio" name="organization" id="organization-2" value="2" required>
+                    <label for="organization-2" data="2"></label>
+                    <input type="radio" name="organization" id="organization-3" value="3" required>
+                    <label for="organization-3" data="3"></label>
+                    <input type="radio" name="organization" id="organization-4" value="4" required>
+                    <label for="organization-4" data="4"></label>
+                    <input type="radio" name="organization" id="organization-5" value="5" required>
+                    <label for="organization-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+                <label for="facilities">Please rate your satisfaction with the training facilities and technology.</label>
+                <div class="options">
+                    <input type="radio" name="facilities" id="facilities-1" value="1" required>
+                    <label for="facilities-1" data="1"></label>
+                    <input type="radio" name="facilities" id="facilities-2" value="2" required>
+                    <label for="facilities-2" data="2"></label>
+                    <input type="radio" name="facilities" id="facilities-3" value="3" required>
+                    <label for="facilities-3" data="3"></label>
+                    <input type="radio" name="facilities" id="facilities-4" value="4" required>
+                    <label for="facilities-4" data="4"></label>
+                    <input type="radio" name="facilities" id="facilities-5" value="5" required>
+                    <label for="facilities-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Instructor Evaluation</legend>
+                <label for="knowledge">How would you rate the instructor's knowledge of the subject matter?</label>
+                <div class="options">
+                    <input type="radio" name="knowledge" id="knowledge-1" value="1" required>
+                    <label for="knowledge-1" data="1"></label>
+                    <input type="radio" name="knowledge" id="knowledge-2" value="2" required>
+                    <label for="knowledge-2" data="2"></label>
+                    <input type="radio" name="knowledge" id="knowledge-3" value="3" required>
+                    <label for="knowledge-3" data="3"></label>
+                    <input type="radio" name="knowledge" id="knowledge-4" value="4" required>
+                    <label for="knowledge-4" data="4"></label>
+                    <input type="radio" name="knowledge" id="knowledge-5" value="5" required>
+                    <label for="knowledge-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+                <label for="explanation">Rate the instructor's ability to effectively communicate and explain complex concepts.</label>
+                <div class="options">
+                    <input type="radio" name="explanation" id="explanation-1" value="1" required>
+                    <label for="explanation-1" data="1"></label>
+                    <input type="radio" name="explanation" id="explanation-2" value="2" required>
+                    <label for="explanation-2" data="2"></label>
+                    <input type="radio" name="explanation" id="explanation-3" value="3" required>
+                    <label for="explanation-3" data="3"></label>
+                    <input type="radio" name="explanation" id="explanation-4" value="4" required>
+                    <label for="explanation-4" data="4"></label>
+                    <input type="radio" name="explanation" id="explanation-5" value="5" required>
+                    <label for="explanation-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+                <label for="discusssion">How well did the instructor encourage questions and facilitate class discussions?</label>
+                <div class="options">
+                    <input type="radio" name="discusssion" id="discusssion-1" value="1" required>
+                    <label for="discusssion-1" data="1"></label>
+                    <input type="radio" name="discusssion" id="discusssion-2" value="2" required>
+                    <label for="discusssion-2" data="2"></label>
+                    <input type="radio" name="discusssion" id="discusssion-3" value="3" required>
+                    <label for="discusssion-3" data="3"></label>
+                    <input type="radio" name="discusssion" id="discusssion-4" value="4" required>
+                    <label for="discusssion-4" data="4"></label>
+                    <input type="radio" name="discusssion" id="discusssion-5" value="5" required>
+                    <label for="discusssion-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+                <label for="environment">Rate the instructor's ability to create a positive and engaging learning environment.</label>
+                <div class="options">
+                    <input type="radio" name="environment" id="environment-1" value="1" required>
+                    <label for="environment-1" data="1"></label>
+                    <input type="radio" name="environment" id="environment-2" value="2" required>
+                    <label for="environment-2" data="2"></label>
+                    <input type="radio" name="environment" id="environment-3" value="3" required>
+                    <label for="environment-3" data="3"></label>
+                    <input type="radio" name="environment" id="environment-4" value="4" required>
+                    <label for="environment-4" data="4"></label>
+                    <input type="radio" name="environment" id="environment-5" value="5" required>
+                    <label for="environment-5" data="5"></label>
+                    <div class="option-position"></div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Overall Course Rating</legend>
+                <label for="rating">
+                    Please share any additional comments or suggestions about the training program or instructor. Your feedback is valuable in helping us improve.
+                    <textarea name="rating" id="rating" cols="30" rows="10"></textarea>
+                </label>
+            </fieldset>
+            <div class="button-group">
+                <div class="button">
+                    <button type="submit" class="nav-item"><a href="admin_enterquestions.html">Edit</a></button>
+                </div>
+                <div class="button">
+                    <button type="submit" class="nav-item"><a href="#submit-result">Upload</a></button>
+                </div>
+            </div>
+            <div id="submit-result">
+                <p>Your questions have been successfully uploaded! Please wait for the Participant's feedback!</p>
+                <a href="admin_course.html"><p>View Course!</p></a>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
