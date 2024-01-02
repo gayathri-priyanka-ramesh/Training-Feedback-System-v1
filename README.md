@@ -16,7 +16,10 @@ Instructors can view information about their training sessions, access participa
 Administrators can create and customize feedback surveys, manage participant data, monitor attendance and feedback submission, analyze feedback data, track instructor evaluations, implement user authentication and access control, and identify feedback trends and insights for program improvement.
 
 ## Project Aspects
-### Tech Stack: 
+### Tech Stack
 HTML5, CSS3 with SASS
-### Responsiveness: 
+### Responsiveness
 All user modules of the project is developed to cater all screen sizes
+
+## Live Link
+https://gayathri-priyanka-ramesh.github.io/Training-Feedback-System-v1/
