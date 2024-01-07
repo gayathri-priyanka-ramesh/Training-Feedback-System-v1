@@ -1,6 +1,6 @@
-# Training-Feedback-System-v1
+# Training-Feedback-System
 
-## Problem Statement
+## Taking on the Challenge
 The "Training Feedback System" is intended to address the following challenges:
 •	The need to collect and analyze feedback from participants who attend training sessions or workshops to evaluate training program effectiveness.
 •	Inefficient manual feedback collection methods, which often result in incomplete or delayed feedback.
@@ -8,18 +8,21 @@ The "Training Feedback System" is intended to address the following challenges:
 •	Data privacy concerns and the need to comply with data protection regulations in handling participant information and feedback data.
 
 ## User Modules
-### 1. Participant Module:
+### 1. Participant Module
 Participants can register for training sessions, submit feedback, access feedback history and reports, and optionally provide anonymous feedback.
-### 2. Instructor Module:
+### 2. Instructor Module
 Instructors can view information about their training sessions, access participant feedback, review comments and ratings, respond to feedback, and use insights to improve their training techniques.
-### 3. Administrator Module:
-Administrators can create and customize feedback surveys, manage participant data, monitor attendance and feedback submission, analyze feedback data, track instructor evaluations, implement user authentication and access control, and identify feedback trends and insights for program improvement.
+### 3. Administrator Module
+Administrators can create and customize feedback surveys, manage participant data, monitor attendance and feedback submission, analyze feedback data, track instructor evaluations, and identify feedback trends and insights for program improvement.
 
-## Project Aspects
-### Tech Stack
-HTML5, CSS3 with SASS
-### Responsiveness
-All user modules of the project is developed to cater all screen sizes
+## Tech at Play
+### Phase 1
+#### Initiation
+Requirement analysis, mind-mapping, wire-framing, UI design with Figma.
+#### Development
+HTML5, CSS3 with SASS, ensuring a 20% code reduction and complete responsiveness using pure CSS media queries.
+
+##### Note: Phase 2 and Phase 3 are underway.
 
 ## Live Link
 https://gayathri-priyanka-ramesh.github.io/Training-Feedback-System-v1/
