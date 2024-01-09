@@ -15,12 +15,18 @@ Instructors can view information about their training sessions, access participa
 ### 3. Administrator Module
 Administrators can create and customize feedback surveys, manage participant data, monitor attendance and feedback submission, analyze feedback data, track instructor evaluations, and identify feedback trends and insights for program improvement.
 
-## Tech at Play
-### Phase 1
-#### Initiation
-Requirement analysis, mind-mapping, wire-framing, UI design with Figma.
-#### Development
-HTML5, CSS3 with SASS, ensuring a 20% code reduction and complete responsiveness using pure CSS media queries.
+## Phase 1
+### Initiation
+ - Requirement Analysis
+ - Mind-mapping
+ - Wire-framing
+ - UI design with Figma.
+### Development
+ - HTML5
+ - CSS3 with SASS
+### Noteworthy traits
+ - Responsiveness with pure CSS Media Queries
+ - Ensured a 20% code reduction
 
 ##### Note: Phase 2 and Phase 3 are underway.
 
